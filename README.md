@@ -1,5 +1,5 @@
 # Gorilla WebSocket
-
+use for fasthttp
 Gorilla WebSocket is a [Go](http://golang.org/) implementation of the
 [WebSocket](http://www.rfc-editor.org/rfc/rfc6455.txt) protocol.
 
@@ -62,4 +62,4 @@ Notes:
   encountered. Each call to Write sends a single frame message. The Gorilla
   io.Reader and io.WriteCloser operate on a single WebSocket message.
 
-"# websocket" 
+
